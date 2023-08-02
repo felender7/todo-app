@@ -6,6 +6,7 @@ A simple TODO app built with React that allows you to manage your tasks and keep
 - [Overview](#overview)
 - [Features](#features)
 - [Installation](#installation)
+- [Usage](#usage)
 
 
 ## Overview
@@ -27,3 +28,21 @@ To run the TODO app on your local machine, follow these steps:
 
    ```bash
    git clone https://github.com/felender7/todo-app.git
+
+2. Change into the project directory:
+
+    ```bash
+    cd todo-app
+
+3. Install the required dependencies:
+
+    ```bash
+    npm install  # OR yarn if preferred
+
+
+## Usage
+
+After the installation is complete, you can run the TODO app locally:
+
+    ```bash
+    npm start   # OR yarn start (if using Yarn instead of NPM)
