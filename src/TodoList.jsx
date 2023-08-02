@@ -6,7 +6,7 @@ function TodoList({todos,deleteToDo, toggleTodo }) {
   return (
     <div>
        <ul className='list'>
-        <h3>{todos.length === 0 && "No Todo's"}</h3> 
+        <p className='text-center'>{todos.length === 0 && "No Todo's"}</p> 
         {todos.map(todo => {
           return (
             <TodoItem {...todo} key={todo.id} deleteToDo={deleteToDo} toggleTodo={toggleTodo}/>
